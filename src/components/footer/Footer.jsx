@@ -10,7 +10,7 @@ const Footer = () => {
       <a href="#" className="footer__logo">AGE</a>
 
       <ul className="permalinks">
-        <li><a href="#">Home</a></li>
+        <li><a href="#header">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#services">Services</a></li>
@@ -20,9 +20,9 @@ const Footer = () => {
       </ul>
 
       <div className='footer__social'>
-        <a href="https://facebook.com/gboigwe" target="_blank" ><FaFacebookF /></a>
-        <a href="https://medium.com/@AkandeGbolahan" target="_blank"><BsMedium /></a>
-        <a href="https://twitter.com/AgeNeutral" target="_blank"><IoLogoTwitter /></a>
+        <a href="https://facebook.com/gboigwe" target="_blank" rel='noopener noreferrer' ><FaFacebookF /></a>
+        <a href="https://medium.com/@AkandeGbolahan" target="_blank" rel='noopener noreferrer' ><BsMedium /></a>
+        <a href="https://twitter.com/AgeNeutral" target="_blank" rel='noopener noreferrer' ><IoLogoTwitter /></a>
       </div>
 
       <div className="footer__copy">
