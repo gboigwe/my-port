@@ -34,6 +34,7 @@ const About = () => {
               <small>10+ Completed</small>
             </article>
           </div>
+          <h1>AKANDE GBOLAHAN</h1>
           <p>
             With a innovative and creative mind, I have met the requirement of several clients, successfully completed their projects and have been awarded the best so far
           </p>
