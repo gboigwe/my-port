@@ -6,6 +6,7 @@ import IMG3 from "../../assets/Audit.jpg";
 import IMG4 from "../../assets/bGyellow.jpg";
 import IMG5 from "../../assets/Trust.jpg";
 import IMG6 from "../../assets/port.jpg"
+import IMG7 from "../../assets/portF1.png"
 
 // const portFolio = [
 //   {
@@ -66,6 +67,7 @@ const Portfolio = () => {
   const [modalview4, setModalview4] = useState(false);
   const [modalview5, setModalview5] = useState(false);
   const [modalview6, setModalview6] = useState(false);
+  const [modalview7, setModalview7] = useState(false);
 
   const showPrePort1 = () => {
     setModalview1(true);
@@ -114,6 +116,14 @@ const Portfolio = () => {
             const closePrePort6 = () => {
               setModalview6(false);
             }
+            
+              const showPrePort7 = () => {
+                setModalview7(true);
+              }
+
+              const closePrePort7 = () => {
+                setModalview7(false);
+              }
 
   return (
     <section id='portfolio'>
@@ -237,6 +247,29 @@ const Portfolio = () => {
         </article>
 
         <article className="portfolio__item">
+          <div className="portfolio__item-img">
+            <img src={IMG7} alt="img" />
+          </div>
+          <h3>Learners Corner</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/gboigwe/thc" className='btn' target="_blank" rel='noopener noreferrer'>Github</a>
+            <button  className='btn btn-primary' onClick={showPrePort7} >Live Demo</button>
+          </div>
+          {modalview3 && <div className='modal'>
+            <h3  >Learners Corner</h3>
+            <div className="modal-img">
+              <img src={IMG7} alt="learners" />
+            </div>
+            <div className="modal-cta">
+              <a className='btn btn-primary' href="https://learnersandteachers.netlify.app" target="_blank" rel='noopener noreferrer'>Show Me</a>
+              <button className='btn btn-primary' onClick={closePrePort7} >Close Me</button>
+            </div>
+            <small style={{ color: "pink", fontSize: "13px" }}>The learners corner is site that you have the oppotunity to learn and teach others <br /> Put your self to a productive good use today by learning or teaching</small>
+          </div>}
+          {modalview7 && <div className='backdrop'  onClick={closePrePort7} />}
+        </article>
+           
+         <article className="portfolio__item">
           <div className="portfolio__item-img">
             <img src={IMG4} alt="img" />
           </div>
