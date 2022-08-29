@@ -255,7 +255,7 @@ const Portfolio = () => {
             <a href="https://github.com/gboigwe/thc" className='btn' target="_blank" rel='noopener noreferrer'>Github</a>
             <button  className='btn btn-primary' onClick={showPrePort7} >Live Demo</button>
           </div>
-          {modalview3 && <div className='modal'>
+          {modalview7 && <div className='modal'>
             <h3  >Learners Corner</h3>
             <div className="modal-img">
               <img src={IMG7} alt="learners" />
