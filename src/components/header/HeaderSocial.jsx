@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsLinkedin, BsPinterest } from "react-icons/bs"
-import { FaGithub, FaSlack } from "react-icons/fa"
+import { FaGithub } from "react-icons/fa"
 
 const HeaderSocial = () => {
   return (
