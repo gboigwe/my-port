@@ -64,6 +64,10 @@
   color: var(--color-light);
 }
 
+.about__content p {
+  font: 12px;
+}
+
 /* ======= MEDIA QUERIES (MEDIUM SIZE) ======= */
 @media screen and (max-width: 1024px) {
   .about__container {
