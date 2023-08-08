@@ -51,8 +51,6 @@ const About = () => {
 
             A graduate from the department of Statistics, Federal University of Agriculture, Abeokuta, Ogun state, Nigeria. 
             Coding for over 5 years now, I have successfully built websites for personal use and numerous organizational uses. 
-{/*             Tutoring my course mates on different occasions on how to use a particular analysis tool, python and R programming language 
-            whenever my department gives any project or ask us to complete a task before a stipulated deadline.  */}
             I am currently taking a professional software engineering certificate course with ALX AFRICA, I aim to improve my technical skills,
             so I can improve businesses/brands with softwares that promotes their businesses/brands to a better level.
 
