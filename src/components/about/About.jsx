@@ -38,7 +38,9 @@ const About = () => {
        {/*<p>
             With a innovative and creative mind, I have met the requirement of several clients, successfully completed their projects and have been awarded the best so far
           </p> */}
-          <p>
+          
+        </div>
+        <p>
             An enthusiastic tech lover, with the aim of promoting and establishing businesses through technology. 
             I have the skill set to achieve the goals from tech ideas that I have encoutered overtime. 
             Over the years, I have been gaining experience in the process of supporting several tech innovative during my undergraduate days. 
@@ -58,7 +60,6 @@ const About = () => {
             achieve your business vision.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
-        </div>
       </div>
     </section>
   )
