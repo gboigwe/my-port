@@ -1,5 +1,6 @@
 #about p {
-  padding: 2rem;
+  padding: 2.5rem;
+  font-size:13px;
 }
 .about__container {
   display: grid;
