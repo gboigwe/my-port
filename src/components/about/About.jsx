@@ -38,7 +38,7 @@ const About = () => {
        {/*<p>
             With a innovative and creative mind, I have met the requirement of several clients, successfully completed their projects and have been awarded the best so far
           </p> */}
-          
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
         <p>
             An enthusiastic tech lover, with the aim of promoting and establishing businesses through technology. 
@@ -59,7 +59,6 @@ const About = () => {
             If you are looking to build your business/brand or you need an upgrade to a better level, reach out to me and let me make you 
             achieve your business vision.
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>
     </section>
   )
