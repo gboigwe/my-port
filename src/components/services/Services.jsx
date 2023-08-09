@@ -11,13 +11,13 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>Data Analysis</h3>
+            <h3>Digital Marketing</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Sales Analysis</p>
+              <p>Content Writing</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -25,15 +25,15 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Descriptive Statistics</p>
+              <p>Content Calendar</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Chart Building</p>
+              <p>Email Marketing</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Data Analysis</p>
+              <p>Social Media Management</p>
             </li>
           </ul>
         </article>
@@ -46,11 +46,11 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon'/>
-              <p> Basic Frontend Design</p>
+              <p> Frontend Design</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Site Analysis</p>
+              <p>Backend Development</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
