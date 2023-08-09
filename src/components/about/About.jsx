@@ -42,7 +42,7 @@ const About = () => {
         </div>
         
       </div>
-      <p>
+      <p className="container">
             An enthusiastic tech lover, with the aim of promoting and establishing businesses through technology. 
             I have the skill set to achieve the goals from tech ideas that I have encoutered overtime. 
             Over the years, I have been gaining experience in the process of supporting several tech innovative during my undergraduate days. 
