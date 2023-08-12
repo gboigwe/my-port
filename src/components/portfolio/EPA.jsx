@@ -4,7 +4,7 @@ import EP from '../../assets/Elevator_Pitch.mp3'
 const EPA = () => {
   return (
     <div className='cta'>
-      <a href={EP} download className='btn'>My Pitch</a>
+      <a href={EP} download className='btn btn-primary'>Download Audio Pitch</a>
     </div>
   )
 }
