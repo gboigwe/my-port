@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./portfolio.css";
 import TPA from "./TPA"
-import EPA from "./EPA"
+// import EPA from "./EPA"
 import IMG1 from "../../assets/age_site.jpg";
 import IMG2 from "../../assets/wordWall.jpg";
 import IMG3 from "../../assets/Audit.jpg";
@@ -133,7 +133,20 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <TPA />
-      <EPA />
+      <div className="container">
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/RAKNPGBdKoM" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; 
+          autoplay; clipboard-write; 
+          encrypted-media; gyroscope; 
+          picture-in-picture; 
+          web-share" allowfullscreen>
+        </iframe>
+      </div>
 
       <div className="container portfolio__container">
         <article className="portfolio__item">
