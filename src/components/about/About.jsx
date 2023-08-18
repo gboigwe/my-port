@@ -57,11 +57,10 @@ const About = () => {
             Coding for over 5 years now, I have successfully built websites for personal use and numerous organizational uses. 
             I am currently taking a professional software engineering certificate course with ALX AFRICA, I aim to improve my technical skills,
             so I can improve businesses/brands with softwares that promotes their businesses/brands to a better level.
-
             If you are looking to build your business/brand or you need an upgrade to a better level, reach out to me and let me make you 
             achieve your business vision.
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RAKNPGBdKoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/RAKNPGBdKoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
   )
 }
