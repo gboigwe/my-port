@@ -139,7 +139,8 @@ const Portfolio = () => {
           height="315" 
           src="https://www.youtube.com/embed/RAKNPGBdKoM" 
           title="YouTube video player" 
-          frameborder="0" 
+          frameborder="1" 
+          type "align=center"
           allow="accelerometer; 
           autoplay; clipboard-write; 
           encrypted-media; gyroscope; 
