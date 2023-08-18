@@ -59,8 +59,21 @@ const About = () => {
             so I can improve businesses/brands with softwares that promotes their businesses/brands to a better level.
             If you are looking to build your business/brand or you need an upgrade to a better level, reach out to me and let me make you 
             achieve your business vision.
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/RAKNPGBdKoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </p>
+      <div className="container">
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/RAKNPGBdKoM" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; 
+          autoplay; clipboard-write; 
+          encrypted-media; gyroscope; 
+          picture-in-picture; 
+          web-share" allowfullscreen>
+        </iframe>
+      </div>
     </section>
   )
 }
