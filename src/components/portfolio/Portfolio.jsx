@@ -135,12 +135,11 @@ const Portfolio = () => {
       <TPA />
       <div className="container">
         <iframe 
-          width="560" 
-          height="315" 
+          width="100%" 
+          height="360" 
           src="https://www.youtube.com/embed/RAKNPGBdKoM" 
           title="YouTube video player" 
-          frameborder="1" 
-          type "align=center"
+          frameborder="1"
           allow="accelerometer; 
           autoplay; clipboard-write; 
           encrypted-media; gyroscope; 
