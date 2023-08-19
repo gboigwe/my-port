@@ -38,7 +38,8 @@ body {
   background: var(--color-bG);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bGblue.jpg);
+  /* background-image: url(../src/assets/bGblue.jpg); */
+  background-color: var(--color-bG-variant);
 }
 
 /* =============== GEN STYLE =============== */
