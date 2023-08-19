@@ -44,24 +44,24 @@ const About = () => {
       </div>
       <div className="container">
         <h1>AKANDE GBOLAHAN</h1>
-        <p className="container">
-              An enthusiastic tech lover, with the aim of promoting and establishing businesses through technology. 
-              I have the skill set to achieve the goals from tech ideas that I have encoutered overtime. 
-              Over the years, I have been gaining experience in the process of supporting several tech innovative during my undergraduate days. 
-              I have participated in some tech activities such as the Microsoft Student Learn ambassador boot-camp that held as a 
-              tech event in my school, completing several joint works of building standard website for different organization.
-  
-              I have worked on several web projects, analyzed data of different sort during my undergraduate school days. 
-              With my expertise, I am sure to carry out any analysis on any data and to join any group in carrying out a project 
-              and to get any task given to me done based on my technical skills.
-  
-              A graduate from the department of Statistics, Federal University of Agriculture, Abeokuta, Ogun state, Nigeria. 
-              Coding for over 5 years now, I have successfully built websites for personal use and numerous organizational uses. 
-              I am currently taking a professional software engineering certificate course with ALX AFRICA, I aim to improve my technical skills,
-              so I can improve businesses/brands with softwares that promotes their businesses/brands to a better level.
-              If you are looking to build your business/brand or you need an upgrade to a better level, reach out to me and let me make you 
-              achieve your business vision.
-            </p>
+        <p>
+            An enthusiastic tech lover, with the aim of promoting and establishing businesses through technology. 
+            I have the skill set to achieve the goals from tech ideas that I have encoutered overtime. 
+            Over the years, I have been gaining experience in the process of supporting several tech innovative during my undergraduate days. 
+            I have participated in some tech activities such as the Microsoft Student Learn ambassador boot-camp that held as a 
+            tech event in my school, completing several joint works of building standard website for different organization.
+
+            I have worked on several web projects, analyzed data of different sort during my undergraduate school days. 
+            With my expertise, I am sure to carry out any analysis on any data and to join any group in carrying out a project 
+            and to get any task given to me done based on my technical skills.
+
+            A graduate from the department of Statistics, Federal University of Agriculture, Abeokuta, Ogun state, Nigeria. 
+            Coding for over 5 years now, I have successfully built websites for personal use and numerous organizational uses. 
+            I am currently taking a professional software engineering certificate course with ALX AFRICA, I aim to improve my technical skills,
+            so I can improve businesses/brands with softwares that promotes their businesses/brands to a better level.
+            If you are looking to build your business/brand or you need an upgrade to a better level, reach out to me and let me make you 
+            achieve your business vision.
+          </p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>
     </section>
