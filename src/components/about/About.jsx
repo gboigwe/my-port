@@ -34,14 +34,15 @@ const About = () => {
               <small>10+ Completed</small>
             </article>
           </div>
-          <h1>AKANDE GBOLAHAN</h1>
+          
        {/*<p>
             With a innovative and creative mind, I have met the requirement of several clients, successfully completed their projects and have been awarded the best so far
           </p> */}
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          
         </div>
         
       </div>
+      <h1>AKANDE GBOLAHAN</h1>
       <p className="container">
             An enthusiastic tech lover, with the aim of promoting and establishing businesses through technology. 
             I have the skill set to achieve the goals from tech ideas that I have encoutered overtime. 
@@ -60,6 +61,7 @@ const About = () => {
             If you are looking to build your business/brand or you need an upgrade to a better level, reach out to me and let me make you 
             achieve your business vision.
           </p>
+      <a href="#contact" className='btn btn-primary'>Let's Talk</a>
     </section>
   )
 }
