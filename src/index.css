@@ -39,7 +39,7 @@ body {
   color: var(--color-white);
   line-height: 1.7;
   /* background-image: url(../src/assets/bGblue.jpg); */
-  background-color: var(--color-bG-variant);
+  background-color: var(--color-bG);
 }
 
 /* =============== GEN STYLE =============== */
