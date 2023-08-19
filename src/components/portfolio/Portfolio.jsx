@@ -129,10 +129,9 @@ const Portfolio = () => {
 
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
 
-      <TPA />
+      <h5>Watch Me Pitch</h5>
+      <h2>Elevator Pitch</h2>
       <div className="container">
         <iframe 
           width="100%" 
@@ -147,7 +146,11 @@ const Portfolio = () => {
           web-share" allowfullscreen>
         </iframe>
       </div>
+      
+      <h5>My Recent Work</h5>
+      <h2>Portfolio</h2>
 
+      <TPA />
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-img">
