@@ -76,6 +76,9 @@
 
 /* ======= MEDIA QUERIES (MEDIUM SIZE) ======= */
 @media screen and (max-width: 1024px) {
+  #about h1 {
+    margin-top: 10px;
+  }
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
@@ -93,6 +96,9 @@
 
 /* ======= MEDIA QUERIES (SMALL SIZE) ======= */
 @media screen and (max-width: 600px) {
+  #about h1 {
+    margin-top: 10px;
+  }
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;
