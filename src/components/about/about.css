@@ -1,9 +1,8 @@
 #about p {
-  padding: 2.5rem;
   font-size:14px;
 }
 #about h1 {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 }
 .about__container {
   display: grid;
